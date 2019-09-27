@@ -1,0 +1,14 @@
+body{
+  font-family:GEORGIA;
+  font-style:italic;
+  font-weight:bold;
+  font-size:1.5rem;
+  background:rgb(250, 187, 236);
+  COLOR: rgb(59, 31, 219);
+  line-height: 2;
+  }
+  .navp li a {
+      background-color:none;
+      color: rgb(78, 4, 39);
+      text-decoration:none;
+  }

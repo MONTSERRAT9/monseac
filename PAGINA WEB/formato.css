@@ -1,0 +1,57 @@
+body{
+  font-family:GEORGIA;
+  font-style:italic;
+  font-weight:bold;
+  font-size:1rem;
+  background:rgb(235, 235, 232);
+  COLOR: rgb(19, 199, 79);
+  line-height: 2;
+  }
+  .azul { color:blue }
+             .rojo { color:red  }
+  *{
+    padding:0px;/** estilos universales **/
+    margin:0px;
+  }
+
+  #header { /** centrar **/
+    margin:auto;
+    width:1250px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  ul,ol{/** quitar viñetas **/
+    list-style:none;
+  }
+
+  .nav li a /** dar estilo a las pestañasy quitar subrayado (los 3 primeros renglones) **/
+  {
+       background-color:#ADFF2F;
+       color:#d2691es;
+       text-decoration:none;
+       padding:15px 5px;
+       display:block;
+  }
+  .nav > li { /** acomodar pestañas **/
+    float:left;
+  }
+  .nav li a:hover {/** color sobre pestañas **/
+    background-color:#87f717;
+  }
+
+  .nav li ul{ /** desparacen submenus **/
+    display:none;
+    position:absolute;
+    min-width:140px;
+  }
+  .nav li:hover > ul{/**QUE APAREZCAN LOS SUBMENUS CUANDO SE PONE EL MOUSE EN LA PESTAÑA **/
+    display:block;
+  }
+  .nav li ul li { /** posicionar submenus a lado**/
+    position:relative;
+  }
+    .nav li ul li ul{ /** distancia de los submenus de los submenus**/
+      right:-140px;
+      top:0px;
+    }
+
+  
